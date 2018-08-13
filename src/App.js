@@ -43,6 +43,7 @@ class App extends Component {
       <div>
         <h1 className = "h1">Flickria</h1>
         <Input fetchData={this.fetchData} />
+        <br/>
         <PictureDetail pictureDetail={this.state.pictureDetail} />
         <CarouselSlider data={this.state.flickrData} showCarousel={this.state.showCarousel} getPictureDetails={this.getPictureDetails} />
       </div>      
