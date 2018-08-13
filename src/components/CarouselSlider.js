@@ -35,7 +35,7 @@ export default class CarouselSlider extends React.Component {
     }
     return (
       <div> 
-        <div style={{width: "100%"}}>
+        <div style={{width: "100%", textAlign: "center"}}>
           {this.renderPics()}
         </div>
       </div>
