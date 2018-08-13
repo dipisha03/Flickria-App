@@ -14,8 +14,6 @@ When the user clicks on a thumbnail in the carousel to select it, the embedded p
     - The date it was taken 
     - The # of times the photo has been viewed 
 
-When the user clicks on a selected thumbnail to deselect it, the corresponding photo metadata is cleared from the embedded page. 
-
 **Technologies used:** React.js | Node | Flickr API
 
 **Heroku link:** https://flickria-app.herokuapp.com/ (Best viewed in Chrome)
