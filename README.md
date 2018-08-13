@@ -6,7 +6,7 @@
 
 When the user inputs a flickr gallery ID,  the web page uses the Flickr API key to retrieve photos from the identified Flickr gallery and display them in thumbnail form in a photo carousel. I used the fetch method to grab the photos and data from the Flickr API. 
 
- ![Alt text](https://raw.githubusercontent.com/dipisha03/flickria/master/flickria/src/images/flickria.png "flickria")
+ ![Alt text](https://raw.githubusercontent.com/dipisha03/Flickria-App/master/src/images/flickria.png "flickria")
 
 When the user clicks on a thumbnail in the carousel to select it, the embedded page displays metadata about that photo, including:
 
