@@ -37,7 +37,7 @@ body {
   font-size: 14px;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  vertical-align: center;
+  text-align: center;
 }
 
 /* CarouselSlider component  */
