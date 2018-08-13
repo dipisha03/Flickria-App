@@ -37,14 +37,15 @@ body {
   font-size: 14px;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  text-align: center;
+  vertical-align: center;
 }
 
 /* CarouselSlider component  */
 .pictures {
   width: 50%;
   height: 30%;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 /* CarouselSlider component  */
