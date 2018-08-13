@@ -23,15 +23,6 @@ body {
 }
 
 /* Input component  */
-.p2 {
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 17px;
-  text-align: center;
-}
-
-/* Input component  */
-/* Need the input box to be responsive */
 input {
   margin-top: 5px;
   margin-left: 500px;
@@ -52,20 +43,15 @@ input {
 }
 
 /* CarouselSlider component  */
-/* Anyway to remove the vertical pictures? */
-/* Also need to make the pictures responsive */
 .pictures {
   width: 50%;
   height: 30%;
   margin-left: 310px;
 }
 
+/* CarouselSlider component  */
 .invalidId {
   color: white;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-
 }
-
-
-

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Input from './components/Input.js';
 import CarouselSlider from './components/CarouselSlider.js';
 import PictureDetail from './components/PictureDetail.js';
-import Sound2 from './components/Sound2.js';
 import './App.css'
 
 // Define constants 
@@ -46,7 +45,6 @@ class App extends Component {
         <Input fetchData={this.fetchData} />
         <PictureDetail pictureDetail={this.state.pictureDetail} />
         <CarouselSlider data={this.state.flickrData} showCarousel={this.state.showCarousel} getPictureDetails={this.getPictureDetails} />
-        <Sound2 />
       </div>      
     );
   }
