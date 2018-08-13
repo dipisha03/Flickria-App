@@ -1,0 +1,69 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Monoton|Source+Sans+Pro');
+
+body {
+  background: black;
+  height: 100%;
+  margin: 0;
+}
+
+/* App.js file  */
+.h1 {
+  color: white;
+  font-family: 'Monoton', cursive;
+  text-align: center;
+}
+
+/* Input component  */
+.p {
+  color: orange;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+/* Input component  */
+.p2 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+/* Input component  */
+/* Need the input box to be responsive */
+input {
+  margin-top: 5px;
+  margin-left: 500px;
+  margin-bottom: 5px;
+}
+
+/* Input component  */
+.button {
+  margin-left: 2px;
+}
+
+/* PicturDetail component  */
+.picturedetail {
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* CarouselSlider component  */
+/* Anyway to remove the vertical pictures? */
+/* Also need to make the pictures responsive */
+.pictures {
+  width: 50%;
+  height: 30%;
+  margin-left: 310px;
+}
+
+/* Need to add a className to the text Invalid gallery ID in the CarouselSlider Component */
+/* Need to change font color to white and center it  */
+
+
+
+
+
