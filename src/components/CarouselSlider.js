@@ -12,6 +12,7 @@ export default class CarouselSlider extends React.Component {
 // Render pictures from the Flickr gallery in a carousel when user onClicks
   renderPics = () => {
     if (!this.props.data || !this.props.data.photos) {
+
       return <p className="invalidId">Invalid gallery ID 😢</p>
     } else {
       return (
@@ -35,7 +36,7 @@ export default class CarouselSlider extends React.Component {
     }
     return (
       <div> 
-        <div style={{width: "100%", textAlign: "center"}}>
+        <div style={{width: "100%"}}>
           {this.renderPics()}
         </div>
       </div>

@@ -44,7 +44,7 @@ body {
 .pictures {
   width: 50%;
   height: 30%;
-  margin-left: 310px;
+  text-align: center;
 }
 
 /* CarouselSlider component  */
