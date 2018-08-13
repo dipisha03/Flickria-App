@@ -18,4 +18,6 @@ When the user clicks on a selected thumbnail to deselect it, the corresponding p
 
 **Technologies used:** React.js | Node | Flickr API
 
-**Heroku link:** https://flickria.herokuapp.com/
+**Heroku link:** https://flickria-app.herokuapp.com/
+
+**To Run from command line use npm start**
