@@ -13,7 +13,7 @@ export default class CarouselSlider extends React.Component {
   renderPics = () => {
     if (!this.props.data || !this.props.data.photos) {
     // Need to show this text in white & center it 
-      return "Invalid gallery ID";
+      return <p className="invalidId">Invalid gallery ID 😢</p>
     } else {
       return (
         <Carousel showArrows={true} dynamicHeight={true}>

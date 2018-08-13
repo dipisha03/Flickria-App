@@ -32,7 +32,7 @@ export default class Input extends React.Component {
         <p className = "p2">Turn up for 🎧</p>
   
         <input className = "input" value={this.state.value} onChange={this.handleChange} />
-        <button className = "button" type="submit">Go wild🌲🐉👽</button>
+        <button className = "button" type="submit">Go wild 🌲🐉👽</button>
 
       </form>
     );

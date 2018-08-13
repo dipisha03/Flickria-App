@@ -60,10 +60,12 @@ input {
   margin-left: 310px;
 }
 
-/* Need to add a className to the text Invalid gallery ID in the CarouselSlider Component */
-/* Need to change font color to white and center it  */
+.invalidId {
+  color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
 
-
+}
 
 
 
