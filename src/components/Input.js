@@ -10,7 +10,7 @@ export default class Input extends React.Component {
     };
   }
 
-// Capture the value the user types in 
+// Capture the value the user types in the state
   handleChange = (event) => {
     this.setState({ value: event.target.value });
   }
@@ -33,7 +33,7 @@ export default class Input extends React.Component {
 
           <div className="input">
             <input className="input" value={this.state.value} onChange={this.handleChange} />
-            <button className="button" type="submit">Go wild 🌲🐉👽</button>
+            <button className="button" type="submit">Search</button>
           </div>
         </form>
       </div>

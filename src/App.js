@@ -23,14 +23,14 @@ class App extends Component {
     };
   }
 
-// Fetch Flickr data
+// Fetch Flickr data with user input on submit
   fetchData = (data) => {
     fetch(url + "/rest/?method=" + getPhotosMethod + "&api_key=" + api_key + "&gallery_id=" + data + "&format=" + format)
       .then(response => response.json())
       .then(data => this.setState({ flickrData: data, showCarousel: true }, () => console.log(this.state.flickrData)))
   }
 
-// Get Picture details 
+// Get Picture details when user clicks on a picture in the carousel
   getPictureDetails = (data) => {
     fetch(url + "/rest/?method=" + getInfo + "&api_key=" + api_key + "&photo_id=" + data.id + "&format=" + format)
       .then(response => response.json())
